@@ -6,13 +6,13 @@
         "image": "saber900/oga-wins:latest",
         "expose": 3000,
         "env": {
-          "OPENAI_API_KEY": "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",
+          "OPENAI_API_KEY": "${OPENAI_API_KEY}",
           "OPENAI_API_URL": "https://openrouter.ai/api/v1",
-          "OPENROUTER_API_KEY": "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",
+          "OPENROUTER_API_KEY": "${OPENROUTER_API_KEY}",
           "MODEL_NAME": "qwen/qwen-2.5-72b-instruct",
           "SERVER_PORT": "3000",
           "NODE_ENV": "production",
-          "TELEGRAM_BOT_TOKEN": "8734745475:AAHwi3M90-_UpQeig6FR7RwCIOJJWizKLJ0"
+          "TELEGRAM_BOT_TOKEN": "${TELEGRAM_BOT_TOKEN}"
         }
       },
       "execution": {
